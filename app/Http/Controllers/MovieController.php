@@ -16,7 +16,7 @@ class MovieController extends Controller
     // methods
     public function index()
     {
-        // get the popular movies
+        // get the popular and top rated movies
         $popularMovies = $this->tmdb->fetchMoviesList('popular');
         $nowPlayingMovies = $this->tmdb->fetchMoviesList('now_playing');
         // return view with data

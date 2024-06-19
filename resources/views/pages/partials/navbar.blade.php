@@ -1,8 +1,8 @@
-<nav class="bg-white border-gray-200 dark:bg-gray-900">
+<nav class="bg-white border-gray-200 dark:bg-gray-900 fixed top-0 w-full z-10">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="{{ route('movies.index') }}" class="flex items-center">
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"><span
-                    class="text-red-700">Cine</span>Verse</span>
+                    class="text-red-700">CineVerse</span>
         </a>
         <div class="flex md:order-2">
             <button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search" aria-expanded="false"
