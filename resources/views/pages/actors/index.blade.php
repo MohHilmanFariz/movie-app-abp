@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-    <div class="container mx-auto px-4 pt-16">
+    <div class="container mx-auto px-4 pt-6">
         <!-- Start pouplar-Actors -->
         <x-elements-container title="Popular Actors">
             @foreach ($popularActors['data'] as $actor)

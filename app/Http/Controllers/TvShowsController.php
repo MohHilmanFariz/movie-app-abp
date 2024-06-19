@@ -16,7 +16,7 @@ class TvShowsController extends Controller
     // methods
     public function index()
     {
-        // get the popular movies
+        // get the popular and top rated tv show
         $popularTvShows = $this->tmdb->fetchTvShowsList('popular');
         $topRatedTvShows = $this->tmdb->fetchTvShowsList('top_rated');
         // return view with data
@@ -30,5 +30,4 @@ class TvShowsController extends Controller
         // return view with data
         return view('pages.tv-shows.show', compact('tvShow'));
     }
-
 }

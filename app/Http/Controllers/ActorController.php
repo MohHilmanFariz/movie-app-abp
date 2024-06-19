@@ -43,7 +43,7 @@ class ActorController extends Controller
     public function show($id)
     {
         abort_if(!is_numeric($id), 404);
-        // get the movie details
+        // get the actor details
         $actor = $this->tmdb->fetchActor("/person/$id");
         // return view with data
         return view('pages.actors.show', compact('actor'));
