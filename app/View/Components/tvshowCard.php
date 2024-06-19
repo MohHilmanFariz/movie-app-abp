@@ -6,7 +6,7 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class tvshow-card extends Component
+class tvshowCard extends Component
 {
     /**
      * Create a new component instance.
